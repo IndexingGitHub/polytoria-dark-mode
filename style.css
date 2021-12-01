@@ -1,0 +1,120 @@
+/* ==UserStyle==
+@name           polytoria.com - 11/26/2021, 10:20:41 PM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("polytoria.com") {
+    body, html {
+        background-color: #111111;
+    }
+    
+    .navbar {
+        background-color: #191919;
+        border-color: #292929;
+    }
+    
+    hr, hr.dropdown-divider {
+        border-color: #292929;
+    }
+    
+    .header-body {
+        border-bottom-color: #292929;
+    }
+    
+    .card {
+        background-color: #191919;
+        border-color: #292929;
+        /* box-shadow: 0 .75rem 1.5rem #191919; */
+        box-shadow: none;
+    }
+    
+    a, a:hover, a:focus, a.text-reset:hover *, a.text-reset:focus * {
+        color: #ccc !important;
+    }
+    
+    .form-control, .form-control:hover, .form-control:focus, .dropdown-menu {
+        background-color: #191919;
+        border-color: #292929;
+    }
+    
+    .form-control::placeholder {
+        color: #3e3e3e;
+        text-shadow: none;
+    }
+    
+    select.form-control, select.form-control:hover, select.form-control:focus {
+        background-color: #191919;
+        border-color: #292929;
+    }
+    
+    .header-pretitle {
+        color: #555;
+    }
+    
+    #poly-chat-toggler {
+        background-color: #303030;
+    }
+    
+    .navbar-vertical .nav-item a.nav-link, #topbar input#headerSearchDesktop::placeholder {
+        color: #6f6f6f;
+    }
+    
+    #topbar .input-group-prepend i {
+        color: #6f6f6f;
+    }
+    
+    .list-group-item {
+        border-color: #292929;
+    }
+    
+    .dropdown-item {
+        color: #ccc;
+    }
+    
+    .dropdown-item:hover {
+        color: #fff;
+    }
+    
+    .nav-pills .nav-link.active {
+        background-color: #191919;
+        border: 1px solid #292929;
+    }
+    
+    small {
+       color: #ccc !important;
+    }
+    
+    .btn.btn-sm.btn-rounded-circle.btn-white, .btn.btn-sm.btn-rounded-circle.btn-white:hover, .btn.btn-sm.btn-rounded-circle.btn-white:focus {
+        background-color: #0f0f0f;
+        border-color: #292929;
+    }
+    
+    .card-header, .table thead th {
+        color: #fff !important;
+        background: #0f0f0f;
+        border-color: #292929;
+    }
+    
+    .table thead th a {
+        color: #fff !important;
+    }
+    
+    .table td, .table th {
+        border-color: #292929;
+    }
+    
+    #postContentInput, #postContentInput:hover, #postContentInput:focus {
+        background-color: #202020 !important;
+    }
+    
+    #postContentInput::placeholder {
+        color: #dbdbdb;
+    }
+    
+    footer.border-top {
+        border-color: #292929 !important;
+    }
+}
