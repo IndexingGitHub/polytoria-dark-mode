@@ -7,6 +7,12 @@
 ==/UserStyle== */
 
 @-moz-document domain("polytoria.com") {
+    /* Thank you for using my theme! I'll be updating it frequently, feel free to change anything as you wish. */
+    /* Some things might be overrided because of Polytoria's current Christmas/XMAS theme. */
+    /* Made by Index on Polytoria. */
+    
+    /* UPDATE LOGS CAN BE FOUND HERE IN THE "NOTES" SECTION: https://userstyles.world/style/2182/polytoria-dark-mode */
+    
     body, html {
         background-color: #111111;
     }
@@ -41,11 +47,12 @@
     }
     
     .form-control::placeholder {
-        color: #3e3e3e;
+        /* color: #3e3e3e; */
+        color: #ccc;
         text-shadow: none;
     }
     
-    select.form-control, select.form-control:hover, select.form-control:focus {
+    select.form-control, select.form-control:hover, select.form-control:focus, select.custom-select, select.custom-select:hover, select.custom-select:focus {
         background-color: #191919;
         border-color: #292929;
     }
@@ -116,5 +123,67 @@
     
     footer.border-top {
         border-color: #292929 !important;
+    }
+    
+    .form-control.disabled, .form-control.disabled:hover, .form-control.disabled:focus, .form-control[disabled], .form-control[disabled]:hover, .form-control[disabled]:focus {
+        background-color: #191919;
+        border-color: #292929;
+        color: #ccc;
+    }
+    
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        border-color: transparent transparent #292929;
+    }
+    
+    .text-secondary, .text-muted {
+        color: #474747;
+    }
+    
+    .border {
+        border: 1px solid #292929 !important;
+    }
+    
+    .bg-light {
+        background-color: #191919 !important;
+    }
+    
+    p.small.text-muted, small.text-muted, ul.small.text-muted {
+        color: #ccc !important;
+    }
+    
+    .tooltip {
+        background-color: #191919 !important;
+        border-color: #292929 !important;
+    }
+    
+    .modal-content {
+        background-color: #161616;
+    }
+    
+    .modal-header, .modal-footer {
+        background-color: #0f0f0f;
+    }
+    
+    button.close[data-dismiss="modal"], button.close[data-dismiss="modal"]:hover, button.close[data-dismiss="modal"]:focus {
+        color: #fff;
+    }
+    
+    /* REVERT STYLE FOR BLOG SUBDOMAIN (blog.polytoria.com) */
+    body.home-template, body.post-template {
+        background-color: #ffffff;
+    }
+    
+    /* REVERT STYLE FOR SCRIPTING API DOCUMENTATION SUBDOMAIN (docs.polytoria.com) */
+    html.js-focus-visible body {
+        background-color: #ffffff;
+    }
+    
+    /* REVERT STYLE FOR API DOCUMENTATION SUBDOMAIN (api.polytoria.com/docs/) */
+    div.swagger-ui {
+        background-color: #fafafa;
+    }
+    
+    div.swagger-ui p, div.swagger-ui h1, div.swagger-ui h2, div.swagger-ui h3, div.swagger-ui h4, div.swagger-ui h5, div.swagger-ui a, div.swagger-ui a:hover, div.swagger-ui a:focus {
+        color: #000 !important;
     }
 }
